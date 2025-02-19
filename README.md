@@ -45,7 +45,7 @@ class LineDrawingApp {
 
 ## 📚 Алгоритмы
 📐 Алгоритм CDA
-```
+```javascript
 async drawSegmentCDA(x1, y1, x2, y2, debugMode) {
   // Вычисление шагов и приращений
   let steps = Math.max(Math.abs(dx), Math.abs(dy));
@@ -56,7 +56,7 @@ async drawSegmentCDA(x1, y1, x2, y2, debugMode) {
 }
 ```
 ⚡ Алгоритм Брезенхема
-```
+```javascript
 async drawSegmentBresenham(x1, y1, x2, y2, debugMode) {
   // Учет направления рисования
   let sx = x1 < x2 ? 1 : -1;
@@ -70,7 +70,7 @@ async drawSegmentBresenham(x1, y1, x2, y2, debugMode) {
 }
 ```
 🎨 Алгоритм Ву
-```
+```javascript
 async drawSegmentWu(x1, y1, x2, y2, debugMode) {
   // Выбор основного направления
   if (Math.abs(dx) > Math.abs(dy)) {
