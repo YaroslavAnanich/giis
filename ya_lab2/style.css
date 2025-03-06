@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    margin-bottom: 10px;
+}
+
+#canvas {
+    border: 1px solid black;
+}
